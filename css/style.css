@@ -331,7 +331,8 @@ label {
 }
 
 input, select { 
-    width: 100%; padding: 5px; 
+    width: 100%; 
+    padding: 5px; 
 }
 
 /*Producto*/
@@ -365,7 +366,6 @@ input, select {
     text-align: start;
 }
 
-/*en pantalla chica tiene que ir a mas porcentaje*/
 .precio-total{
     width: 40%;
     border: 2px solid rgb(58, 56, 55); 
@@ -426,7 +426,7 @@ input, select {
 .contacto-fila{
  display: flex;
  justify-content: center;
- margin: 15px;
+ margin: 15px 0;
  gap: 20px;  
 }
 
@@ -509,11 +509,57 @@ input, select {
     .check-menu:checked + .links-Navbar{
         display: flex;
     }
+    /*volver arriba*/
+
+    #flecha-arriba{
+        bottom: 90px;
+    }
+
+    /*seccion1*/
+    .imagen-logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*seccion3*/
+    .container-ventajas{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
     /*noticias*/
     .container-noticias{
         display: flex;
         flex-direction: column;
     }
-
+    /*contacto*/
+    .contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto-fila{
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+        width: 100%;
+    }
+    .contacto-columna{
+        display: flex;
+        width: 100%;
+    }
+    .container-map{
+        margin-bottom: 30px;
+    }
+    /*presupuesto*/
+    .container{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .precio-total{
+        width: 90%;
+        border: 2px solid rgb(58, 56, 55); 
+        border-radius: 5px;
+    }
  
 }
