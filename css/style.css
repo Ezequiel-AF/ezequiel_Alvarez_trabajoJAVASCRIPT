@@ -532,6 +532,10 @@ input, select {
         display: flex;
         flex-direction: column;
     }
+    /*galeria*/
+    .swiper{
+        margin-bottom: 80px;
+    }
     /*contacto*/
     .contacto{
         display: flex;
